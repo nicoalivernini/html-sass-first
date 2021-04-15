@@ -18,3 +18,7 @@ h3, .subtitle-3, .button-3 {
   color: purple;
   padding: 10px;
 }
+
+.button-2, .button-3 {
+  text-transform: uppercase;
+}

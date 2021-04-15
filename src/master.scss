@@ -12,6 +12,8 @@ $third: purple;
 
 $padding: 10px;
 
+$maiuscolo: uppercase;
+
 h1 {
   color: $first;
   padding: $padding;
@@ -25,4 +27,8 @@ h2, .subtitle-2, .button-2 {
 h3, .subtitle-3, .button-3 {
   color: $third;
   padding: $padding;
+}
+
+.button-2, .button-3 {
+  text-transform: $maiuscolo;
 }
